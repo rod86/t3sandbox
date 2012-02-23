@@ -11,7 +11,7 @@ Installation
 
 - Clone this to your server
 - Add files index.php, typo3, t3lib (download a typo3 4.5.x or download the source from http://typo3.org/download/packages/).
-- Import database and modify database vars in typo3conf/localconf.php 
+- Import database t3sandbox.sql and modify database vars in typo3conf/localconf.php 
 - change baseurl in fileadmin/templates/ts/page.ts
 - change file permissions
 
