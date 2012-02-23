@@ -1,0 +1,39 @@
+*******************************************************************************
+t3sandbox (typo3 4.5.11)
+*******************************************************************************
+
+A blank typo3 project for install and play without loose time setting up basic things as template, ...
+
+
+===============================================================================
+Installation
+===============================================================================
+
+- Clone this to your server
+- Add files index.php, typo3, t3lib (download a typo3 4.5.x or download the source from http://typo3.org/download/packages/).
+- Import database and modify database vars in typo3conf/localconf.php 
+- change baseurl in fileadmin/templates/ts/page.ts
+- change file permissions
+
+
+===============================================================================
+Libraries included in the project
+===============================================================================
+- Framework CSS Twitter Bootstrap
+- jQuery 1.7.1
+
+
+===============================================================================
+Templavoila areas
+===============================================================================
+- Header (lib.field_header)
+- Menu (lib.menu)
+- Submenu (lib.submenu)
+- Content
+- Footer (lib.footer)
+
+
+
+
+
+

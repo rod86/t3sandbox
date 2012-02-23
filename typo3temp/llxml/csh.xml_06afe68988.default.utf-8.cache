@@ -1,0 +1,1 @@
+a:2:{s:8:"origFile";s:103:"typo3conf/ext/blog_example/Resources/Private/Language/locallang_csh.xml|11-12-2011 20:50:59|version=2.3";s:10:"LOCAL_LANG";a:1:{s:7:"default";a:3:{s:9:".alttitle";s:12:"Blog Example";s:12:".description";s:52:"This is some dummy help. But it's context sensitive!";s:8:".seeAlso";s:64:"_MOD_web_func:tx_wizardcrpages, _MOD_web_func:tx_wizardsortpages";}}}
