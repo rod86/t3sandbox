@@ -10,8 +10,8 @@ Installation
 ===============================================================================
 
 - Clone this to your server
-- Add files index.php, typo3, t3lib (download a typo3 4.5.x or download the source from http://typo3.org/download/packages/).
-- Import database t3sandbox.sql and modify database vars in typo3conf/localconf.php 
+- Add files index.php, typo3, t3lib (create symlinks to a typo3 4.5.x or download the source from http://typo3.org/download/packages/).
+- Import database db/t3sandbox_master.sql and modify database vars in typo3conf/localconf.php 
 - change baseurl in fileadmin/templates/ts/page.ts
 - change file permissions
 
@@ -29,6 +29,7 @@ Templavoila areas
 - Header (lib.field_header)
 - Menu (lib.menu)
 - Submenu (lib.submenu)
+- Left col under submenu (lib.leftBlock)
 - Content
 - Footer (lib.footer)
 

@@ -14,12 +14,18 @@
 				<tx_templavoila type="array">
 					<title>Header</title>
 					<sample_data type="array">
-						<numIndex index="0"></numIndex>
+						<numIndex index="0">[HEADER BLOCK]</numIndex>
 					</sample_data>
 					<eType>TypoScriptObject</eType>
 					<tags>div:inner</tags>
 					<preview></preview>
-					<TypoScriptObjPath></TypoScriptObjPath>
+					<TypoScriptObjPath>lib.header</TypoScriptObjPath>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<description>div#header div.span6 offset2 as inner</description>
 				</tx_templavoila>
 			</field_header>
 			<field_menu type="array">
@@ -42,7 +48,7 @@
 				<tx_templavoila type="array">
 					<title>Submenu</title>
 					<sample_data type="array">
-						<numIndex index="0"></numIndex>
+						<numIndex index="0">[SUBMENU BLOCK]</numIndex>
 					</sample_data>
 					<eType>TypoScriptObject</eType>
 					<proc type="array">
@@ -52,21 +58,30 @@
 					</proc>
 					<preview></preview>
 					<TypoScriptObjPath>lib.submenu</TypoScriptObjPath>
+					<description>ul.submenu as outer</description>
+					<tags>ul:outer</tags>
 				</tx_templavoila>
 			</field_submenu>
 			<field_content type="array">
 				<tx_templavoila type="array">
 					<title>Content</title>
 					<sample_data type="array">
-						<numIndex index="0"></numIndex>
+						<numIndex index="0">[CONTENT]</numIndex>
 					</sample_data>
 					<eType>ce</eType>
-					<TypoScript>
-10= RECORDS
+					<TypoScript>10= RECORDS
 10.source.current=1
 10.tables = tt_content</TypoScript>
 					<preview></preview>
-					<enableDragDrop type="integer">1</enableDragDrop>
+					<enableDragDrop>1</enableDragDrop>
+					<description>div that have 'Lorem ipsum' inside div#content as inner</description>
+					<tags>div:inner</tags>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<oldStyleColumnNumber>0</oldStyleColumnNumber>
 				</tx_templavoila>
 				<TCEforms type="array">
 					<label>Content</label>
@@ -86,7 +101,7 @@
 				<tx_templavoila type="array">
 					<title>Footer</title>
 					<sample_data type="array">
-						<numIndex index="0"></numIndex>
+						<numIndex index="0">[FOOTER BLOCK]</numIndex>
 					</sample_data>
 					<eType>TypoScriptObject</eType>
 					<tags>div:inner</tags>
@@ -97,8 +112,45 @@
 					</proc>
 					<preview></preview>
 					<TypoScriptObjPath>lib.footer</TypoScriptObjPath>
+					<description>div#footer as inner</description>
 				</tx_templavoila>
 			</field_footer>
+			<field_leftblock type="array">
+				<tx_templavoila type="array">
+					<title>Left Block</title>
+					<description>div.left-block as inner</description>
+					<sample_data type="array">
+						<numIndex index="0">[LEFT BLOCK]</numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<tags>div:inner</tags>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.leftBlock</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_leftblock>
+			<field_pagetitle type="array">
+				<tx_templavoila type="array">
+					<title>Page title</title>
+					<description>map div.pagetitle as inner</description>
+					<sample_data type="array">
+						<numIndex index="0">[PAGE TITLE]</numIndex>
+					</sample_data>
+					<eType>TypoScriptObject</eType>
+					<tags>div:inner</tags>
+					<proc type="array">
+						<int>0</int>
+						<HSC>0</HSC>
+						<stdWrap></stdWrap>
+					</proc>
+					<preview></preview>
+					<TypoScriptObjPath>lib.pagetitle</TypoScriptObjPath>
+				</tx_templavoila>
+			</field_pagetitle>
 		</el>
 	</ROOT>
 </T3DataStructure>

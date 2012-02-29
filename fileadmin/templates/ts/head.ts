@@ -1,4 +1,5 @@
 ﻿
+config.removeDefaultJS = 1
 
 
 #HEADER TITLE
@@ -11,7 +12,7 @@ page.headerData.5.wrap = <title>T3sandbox - |</title>
 
 #CSS
 page.includeCSS {
-	file1 = fileadmin/templates/css/twitter-bootstrap/bootstrap.css
+	file1 = fileadmin/templates/css/bootstrap/css/bootstrap.css
 	file2 = fileadmin/templates/css/styles.css
 }
 

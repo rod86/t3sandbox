@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>Hello Bootstrap</title>
-<link href="css/twitter-bootstrap/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap/css/bootstrap.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -14,38 +14,67 @@
 		        <img src="img/logo.jpg" />
 		    </div>		    
 		    
-		    <div class="span6 offset6">
-		        
+		    <div class="span6 offset2">
+		      
 		    </div>		    
 		</div>
 		
-		<ul class="tabs">
+		<ul class="nav nav-pills">
 			<li class="active"><a href="#">Item 1</a></li>
 			<li><a href="#">Item 2</a></li>
 			<li><a href="#">Item 3</a></li>
-			<li><a href="#">Item 4</a></li>
+			<li><a href="#">Item 4</a></li>		    
 		</ul>		
 		
-		<div class="row" id="content-wrapper">
-			<div class="span3" id="sidebar">
-				<ul class="submenu">
-					<li class="active"><a href="#">Sub item 1</a></li>
-					<li><a href="#">Sub item 1</a></li>
-					<li><a href="#">Sub item 1</a></li>
-					<li><a href="#">Sub item 1</a></li>
-					<li><a href="#">Sub item 1</a></li>
-				</ul>
-			</div>
 			
-			<div class="span13" id="content">
-				<h1>Pagetitle</h1>
+		<div class="row" id="content-wrapper">
+			<div class="span2" id="sidebar">
+			
+				<div class="row">
+					<div class="span2">
+						<ul class="nav nav-list submenu">					    
+						    <li class="active">
+						   	 	<a href="#">Subpage 1</a>
+						    </li>
+						    <li>
+						    	<a href="#">Subpage 2</a>
+						    </li>
+						    <li>
+						    	<a href="#">Subpage 3</a>
+						    </li>
+						    <li>
+						    	<a href="#">Subpage 4</a>
+						    </li>
+						    <li>
+						    	<a href="#">Subpage 5</a>
+						    </li>				  
+					    </ul>
+					</div>
+					<div class="span2 left-block">
+						
+					</div>
+				</div>			    
+			</div>			
+			
+			<div class="span10" id="content">
+				<div class="row">
+					<div class="span10 pagetitle">
+						<h1>Pagetitle</h1>
+					</div>
+					
+					<div class="span10">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non leo vel libero lobortis egestas. Pellentesque eu velit dui, sit amet viverra neque. Praesent venenatis lacus ac felis pretium sit amet congue nibh gravida. Proin nisl mauris, congue id gravida sed, luctus ac sapien. Nunc in ipsum lacus. Vivamus nisl lectus, posuere id dapibus at, interdum ac magna. Donec vehicula, tellus vitae interdum aliquam, risus nisi pulvinar purus, quis vestibulum sem tellus non tortor. Integer id porta nisl. Aenean iaculis diam nec nisl mattis faucibus porta libero imperdiet. Quisque a enim non erat iaculis vehicula a ac libero. Phasellus dignissim, dui vitae vestibulum feugiat, nibh velit semper lorem, eget adipiscing lorem nisi ac nisl. Donec tristique condimentum scelerisque. Nunc ut neque id dui consectetur cursus. 
+					</div>
+				</div>
+				
+				
 			</div>
 			
 			<div class="clear"></div>
 		</div>
 		
 		<div class="row" id="footer">
-			<div class="span16">
+			<div class="span12">
 				This is a demo site
 			</div>
 		</div>

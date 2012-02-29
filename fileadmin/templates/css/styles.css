@@ -6,30 +6,25 @@
 
 
 /*NAV*/
-ul.tabs{
-	border:none;
+.nav-pills > li > a {
+	color: #df6e28;
 }
 
-ul.tabs li a{
-	color:#df6e28;
+.nav-pills .active > a, .nav-pills .active > a:hover {
+    background-color: #df6e28;
 }
 
-ul.tabs li a:hover{
-	border:1px dotted #df6e28;
-	background-color:#fff;
-	border-radius:0;
+/*submenu*/
+ul.submenu a{
+	color: #df6e28;
 }
 
-ul.tabs li.active a{
-	color:#4b261d;
-	border:1px solid #4b261d;
-	border-radius:0;
+ul.submenu .active > a, ul.submenu .active > a:hover {
+	background-color: #df6e28;
 }
 
-ul.tabs li.active a:hover{
-	color:#4b261d;
-	border:1px solid #4b261d;
-	cursor:pointer;
+div.left-block {
+	margin-top:10px;
 }
 
 
@@ -42,36 +37,11 @@ ul.tabs li.active a:hover{
 	background-color:#fff;	
 }
 
-
-/*submenu*/
-#sidebar ul.submenu{
-	list-style:none;
-	margin:0;
-}
-
-#sidebar ul.submenu li{
-	border-bottom:1px dotted #df6e28;
-	padding:3px 0;
-}
-
-#sidebar ul.submenu li a{
-	color:#df6e28;	
-	display:block;
-}
-
-#sidebar ul.submenu li.active a{
-	font-weight:bold;
-}
-
-#sidebar ul.submenu li a:hover{
-	background-color:#FFDAA8;
-	text-decoration:none;
+div.pagetitle{
+	margin-bottom:15px;
 }
 
 
-#content{
-	width:740px;
-}
 
 #footer{
 	margin-top:50px;
