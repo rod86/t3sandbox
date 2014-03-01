@@ -19,7 +19,7 @@ Installation
 ===============================================================================
 Libraries included in the project
 ===============================================================================
-- Framework CSS Twitter Bootstrap
+- Framework CSS Twitter Bootstrap 2.0.1
 - jQuery 1.7.1
 
 
@@ -28,8 +28,8 @@ Templavoila areas
 ===============================================================================
 - Header (lib.field_header)
 - Menu (lib.menu)
-- Submenu (lib.submenu)
-- Left col under submenu (lib.leftBlock)
+- Left menu (lib.submenu)
+- Left column under left menu (lib.leftBlock)
 - Content
 - Footer (lib.footer)
 
